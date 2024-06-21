@@ -29,12 +29,15 @@ Welcome to the Fun Translation Project! This repository contains a Python-based 
 - `requests` library
 
 You can install the `requests` library using pip:
+```sh
 pip install requests
-
+```
 ## Usage 
 1. ### Clone the repository
-   git clone https://github.com/yourusername/fun-translation-project.git
-   cd fun-translation-project
+   ```sh
+    git clone https://github.com/Ahana19/FunTranslator
+    cd fun-translator
+    ```
    
 2. ### Set up your Fun Translation API Key:
    Sign up at https://funtranslations.com/api/  to get the API endpoint
@@ -42,4 +45,6 @@ pip install requests
 3. ### Create a .env file in your root directory and add the API key endpoint
 
 4. ### Run the script
-   python main.py
+    ```sh
+    python main.py
+    ```
